@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Message from './Message';
 import chipsImg from "./Chips.png";
 import "./Chips.css";
 
@@ -32,11 +33,13 @@ class Chips extends Component {
     ));
     return (
       <div className='Chips'>
-        <h1>bags eaten: {this.state.bags.length}</h1>
-        <button onClick={this.handleClick}>nom nom nom</button>
-        <h1>
-            <NavLink to='/'>Go Back</NavLink>
-        </h1>
+        <Message>
+            <h1>bags eaten: {this.state.bags.length}</h1>
+            <button onClick={this.handleClick}>nom nom nom</button>
+            <h1>
+                <NavLink to='/'>Go Back</NavLink>
+            </h1>
+        </Message>
         {bags}
       </div>
     );
