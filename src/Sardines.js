@@ -8,8 +8,8 @@ class Sardines extends Component {
             <div className='Sardines' style={{ backgroundImage:
                 "url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)"
             }}>
-                <h1>Sardines!!!!</h1>
-                <NavLink to="/">Go Back</NavLink>
+                <h1>Sardines! Yuck!</h1>
+                <NavLink to="/">Take Me Back!</NavLink>
             </div>
         )
     }

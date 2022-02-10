@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Message from "./Message";
 import { NavLink } from "react-router-dom";
 import chipsImg from "./Chips.png";
 import "./Chips.css";
