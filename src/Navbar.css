@@ -5,3 +5,7 @@
     display: flex;
     justify-content: space-around;
 }
+
+.Navbar a.active {
+    color: rgb(64, 173, 82);
+}

@@ -6,10 +6,10 @@ class Navbar extends Component {
     render() {
         return (
             <div className='Navbar'>
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/chips'>Chips</NavLink>
-                <NavLink to='/soda'>Soda</NavLink>
-                <NavLink to='/sardines'>Sardines</NavLink>
+                <NavLink activeclassname='active' to='/'>Home</NavLink>
+                <NavLink activeclassname='active' to='/chips'>Chips</NavLink>
+                <NavLink activeclassname='active' to='/soda'>Soda</NavLink>
+                <NavLink activeclassname='active' to='/sardines'>Sardines</NavLink>
             </div>
         )
     }
