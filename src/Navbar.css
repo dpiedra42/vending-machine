@@ -1,0 +1,7 @@
+.Navbar {
+    background: rgb(82, 80, 80);
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}

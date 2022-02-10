@@ -15,7 +15,7 @@ class Soda extends Component {
                 </div>
                 <img src={sodaImg} alt='coca cola can' />
                 <NavLink activeClassName="active" to="/">
-                    I Want To Buy Something Else
+                    I Want A Snack With My Soda
                 </NavLink>
             </div>
         )
